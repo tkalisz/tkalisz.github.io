@@ -1,6 +1,15 @@
 {
   "@version": 1.1,
-  "userId": "https://atos.net/vocab#userId",
-  "operationType": "https://atos.net/vocab#operationType",
-  "collectionId": "https://atos.net/vocab#collectionId"
+  "userId": {
+    "@id": "https://atos.net/vocab#userId",
+    "@type": "@id"
+  },
+  "operationType": {
+    "@id": "https://atos.net/vocab#operationType",
+    "@type": "@id"
+  },
+  "collectionId": {
+    "@id": "https://atos.net/vocab#collectionId",
+    "@type": "@id"
+  }
 }
