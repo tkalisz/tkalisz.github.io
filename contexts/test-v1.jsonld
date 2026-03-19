@@ -1,15 +1,37 @@
 {
   "@version": 1.1,
+  "@vocab": "https://tkalisz.github.io/vocab#",
+
   "userId": {
-    "@id": "https://atos.net/vocab#userId",
-    "@type": "@id"
+    "@id": "https://tkalisz.github.io/vocab#userId",
+    "@type": "xsd:string"
   },
+
   "operationType": {
-    "@id": "https://atos.net/vocab#operationType",
+    "@id": "https://tkalisz.github.io/vocab#operationType",
+    "@type": "xsd:string"
+  },
+
+  "collectionId": {
+    "@id": "https://tkalisz.github.io/vocab#collectionId",
     "@type": "@id"
   },
-  "collectionId": {
-    "@id": "https://atos.net/vocab#collectionId",
+
+  "Operation": "https://tkalisz.github.io/vocab#Operation",
+  "User": "https://tkalisz.github.io/vocab#User",
+
+  "performedBy": {
+    "@id": "https://tkalisz.github.io/vocab#performedBy",
+    "@type": "@id"
+  },
+
+  "performedAt": {
+    "@id": "https://tkalisz.github.io/vocab#performedAt",
+    "@type": "xsd:dateTime"
+  },
+
+  "hasOperation": {
+    "@id": "https://tkalisz.github.io/vocab#hasOperation",
     "@type": "@id"
   }
 }
