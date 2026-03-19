@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "userId": "https://atos.net/vocab#userId",
+    "operationType": "https://atos.net/vocab#operationType",
+    "collectionId": "https://atos.net/vocab#collectionId"
+  }
+}
