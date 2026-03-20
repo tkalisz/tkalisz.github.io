@@ -1,6 +1,9 @@
 {
   "@context": {
-    "userId": "https://atos.net/vocab#userId",
+    "userId": {
+      "@id": "https://atos.net/vocab#userId",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    }
     "operationType": "https://atos.net/vocab#operationType",
     "collectionId": "https://atos.net/vocab#collectionId"
   }
