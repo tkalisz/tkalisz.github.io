@@ -1,8 +1,6 @@
 {
   "@context": {
     "credentialSubject": {
-      "@id": "https://www.w3.org/2018/credentials#credentialSubject",
-      "@type": "@id"
 	    "userId": "https://atos.net/vocab#userId",
 		"operationType": "https://atos.net/vocab#operationType",
 		"collectionId": "https://atos.net/vocab#collectionId"
